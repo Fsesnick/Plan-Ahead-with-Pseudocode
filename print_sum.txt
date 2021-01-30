@@ -1,10 +1,15 @@
-//solicitar que o usuário digite um número
 prompt user for number
-//cria uma variável para armazenar a entrada
+if input is not a number
+  print "input is not a number"
+  prompt user for a new number
+endif
 set num1 to user_input 
-//Solicite outro número
+if input is not a number
+  print "input is not a number"
+  prompt user for a new number
+endif
+prompt user for number
 set num2 to user_input 
-//Crie outra variável com a soma dos dois valores
 set num to num1+num2
-//imprima o valor dentro da variável de soma
+
 print sum

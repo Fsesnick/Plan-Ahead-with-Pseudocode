@@ -1,0 +1,10 @@
+//solicitar que o usuário digite um número
+prompt user for number
+//cria uma variável para armazenar a entrada
+set num1 to user_input 
+//Solicite outro número
+set num2 to user_input 
+//Crie outra variável com a soma dos dois valores
+set num to num1+num2
+//imprima o valor dentro da variável de soma
+print sum
